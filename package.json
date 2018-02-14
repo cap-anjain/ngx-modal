@@ -1,7 +1,7 @@
 {
-  "name": "ngx-modal",
-  "version": "0.0.29",
-  "description": "Open modal window (dialog box) for your angular2 applications using bootstrap3.",
+  "name": "@cap/ngx-modal",
+  "version": "0.0.29.1",
+  "description": "Open modal window (dialog box) for your angular2 applications, upgraded to use angular5, using bootstrap3.",
   "license": "MIT",
   "readmeFilename": "README.md",
   "private": true,
@@ -18,23 +18,23 @@
   },
   "tags": [
     "modal",
-    "angular2",
+    "angular5",
     "typescript",
-    "angular2-modal"
+    "angular5-modal"
   ],
   "peerDependencies": {
-    "@angular/core": "^2.0.0",
-    "@angular/router": "^3.0.0"
+    "@angular/core": "^5.0.0",
+    "@angular/router": "^5.0.0"
   },
   "devDependencies": {
-    "@angular/common": "^2.4.3",
-    "@angular/compiler": "^2.4.3",
-    "@angular/compiler-cli": "^2.4.3",
-    "@angular/router": "^3.4.3",
-    "@angular/core": "^2.4.3",
-    "@angular/forms": "^2.4.3",
-    "@angular/platform-browser": "^2.4.3",
-    "@angular/platform-browser-dynamic": "^2.4.3",
+    "@angular/common": "^5.0.0",
+    "@angular/compiler": "^5.0.0",
+    "@angular/compiler-cli": "^5.0.0",
+    "@angular/core": "^5.0.0",
+    "@angular/forms": "^5.0.0",
+    "@angular/platform-browser": "^5.0.0",
+    "@angular/platform-browser-dynamic": "^5.0.0",
+    "@angular/router": "^5.0.0",
     "@types/node": "^7.0.0",
     "bootstrap": "^3.3.7",
     "chai": "^3.4.1",
@@ -52,13 +52,18 @@
     "gulpclass": "^0.1.1",
     "mocha": "^3.2.0",
     "reflect-metadata": "0.1.9",
-    "rxjs": "^5.0.3",
+    "rxjs": "^5.5.2",
     "sinon": "^1.17.7",
     "sinon-chai": "^2.8.0",
     "systemjs": "0.19.42",
     "tslint": "^4.3.1",
     "tslint-stylish": "^2.1.0-beta",
-    "typescript": "^2.1.5",
-    "zone.js": "^0.7.6"
+    "typescript": "2.4.2",
+    "zone.js": "^0.8.4"
+  },
+  "dependencies": {
+    "@angular/animations": "^5.0.0",
+    "@angular/http": "^5.0.0",
+    "@angular/platform-server": "^5.0.0"
   }
 }
